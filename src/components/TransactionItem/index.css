@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.each-transaction-item {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  color: #334155;
+  align-items: center;
+  font-weight: 400;
+}
+
+.each-transaction-list {
+  list-style-type: none;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+}
+
+.delete-icon {
+  width: 25px;
+}
+
+.table-column-spacing {
+  min-width: 95px;
+}
+.horizontal-line {
+  border: 1px #cbd5e1 solid;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .each-transaction-item {
+    max-width: 55%;
+  }
+  .table-column-spacing {
+    min-width: 55%;
+  }
+}
